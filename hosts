@@ -1,0 +1,3 @@
+[myvmlab]
+myvmlab.senecapolytechnic.ca ansible_user=student ansible_port=7356 ansible_ssh_pass="n2+DvmT3k]"
+
