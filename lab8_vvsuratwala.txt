@@ -1,0 +1,37 @@
+
+PLAY [Configure OPS445 VM fully] ***********************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [install httpd (latest)] **************************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [install epel-release] ****************************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [remove tree] *************************************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [set hostname] ************************************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [create Seneca user with sudo] ********************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [copy SSH key for new user] ***********************************************
+ok: [myvmlab.senecapolytechnic.ca]
+
+TASK [create lab directories] **************************************************
+ok: [myvmlab.senecapolytechnic.ca] => (item=1)
+ok: [myvmlab.senecapolytechnic.ca] => (item=2)
+ok: [myvmlab.senecapolytechnic.ca] => (item=3)
+ok: [myvmlab.senecapolytechnic.ca] => (item=4)
+ok: [myvmlab.senecapolytechnic.ca] => (item=5)
+ok: [myvmlab.senecapolytechnic.ca] => (item=6)
+ok: [myvmlab.senecapolytechnic.ca] => (item=7)
+ok: [myvmlab.senecapolytechnic.ca] => (item=8)
+
+PLAY RECAP *********************************************************************
+myvmlab.senecapolytechnic.ca : ok=8    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
